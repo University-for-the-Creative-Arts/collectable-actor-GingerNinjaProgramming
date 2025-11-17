@@ -1,84 +1,24 @@
-# GitHub Pages Template
+# Collectable actor
 
-This repository provides a lightweight template for building rich, media-friendly GitHub Pages. It’s ideal for showcasing game projects, interactive demos, technical assignments, or creative coursework using Markdown and simple HTML.
+I made a pickup actor class that detects when a player interacts with it based on interactable interface that the player is configured to use
 
-The template supports:
+This will then update a value on the player and then delete its self 
 
-- GIFs, MP4s, and screenshots
-- Embedded iframes (BlueprintUE, itch.io, YouTube)
-- Styled code blocks, tables, and responsive media
-- A built-in dark theme with optional styling overrides
+I also made a child class of this called pickup trap which functions the same as its parent but with the option to tie it to an array of static mesh actors in the world and will then remove those actors once collected along with the orginal functionality to add a trap door like effect 
 
----
+<img width="650" height="558" alt="image" src="https://github.com/user-attachments/assets/56114384-fcb6-4bab-8ff4-79c5f686098b" />
 
-## 🚀 Getting Started
+<img width="1568" height="890" alt="image" src="https://github.com/user-attachments/assets/2a0705b8-b8a2-4ce3-813a-db57d35239ec" />
 
-1. **Create a new repository using this template:**
-   - Click the green **"Use this template"** button on the GitHub page.
-   - Alternatively, your instructor may assign this via **GitHub Classroom**.
-   - You may also fork this repo to make your own version of the template.
+<img width="1916" height="902" alt="image" src="https://github.com/user-attachments/assets/88a655cb-2493-4545-a6b0-d1ed8bdcd669" />
 
-2. **Edit `index.md`**:
-   - Replace example content with your own.
-   - Add sections for videos, code snippets, gifs, embedded blueprints, or downloadable builds.
+<img width="1919" height="899" alt="image" src="https://github.com/user-attachments/assets/71b8c0bc-9097-4a3a-b0ad-230098c0d6c7" />
 
-3. **Convert `index.md` to `index.html`** (optional but recommended):
-   - Install [VS Code](https://code.visualstudio.com/)
-   - Install the [Markdown PDF extension](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-   - Open `index.md`, then press `Ctrl + Shift + P` and select:
-     > `Markdown PDF: Export (html)`
+<img width="1705" height="388" alt="image" src="https://github.com/user-attachments/assets/55f85335-a232-4f29-a74c-7228d035fb9a" />
 
-4. **Enable GitHub Pages**:
-   - Go to the **Settings** tab of your repository.
-   - Scroll to the **Pages** section.
-   - Set **Source** to `Deploy from a branch`.
-   - Select the `main` branch and folder `/ (root)`.
-   - Click **Save**.
 
-✅ After a few moments, your site will be published at:
 
-```
 
-[https://your-username.github.io/your-repo-name/](https://your-username.github.io/your-repo-name/)
 
-```
 
----
 
-## 🛠️ Customisation
-
-This template uses an embedded `<style>` block at the top of `index.md` for layout and theming. You can:
-
-- Tweak colors, fonts, or sizing
-- Add your own responsive styles
-- Use Markdown and inline HTML together for layout control
-
----
-
-## 📁 Asset Management
-
-- Store your local assets in the `assets/` folder
-- Supported file types: `.gif`, `.mp4`, `.png`, `.jpg`
-- Avoid spaces in filenames and keep them lowercase
-
----
-
-## 🧩 Recommended Embeds
-
-- **BlueprintUE:** Share Blueprints visually for Unreal Engine projects
-- **YouTube:** Host trailers, walk-throughs, or commentary
-- **Itch.io:** Embed downloadable or WebGL games
-
----
-
-## 📦 Deployment Notes
-
-- Use the `assets/` folder for all local media files (e.g., GIFs, MP4s, images).
-- Keep filenames lowercase and without spaces.
-- Test your site locally by opening `index.html` in a browser before publishing.
-
----
-
-## 🤝 Contributing
-
-You are welcome to adapt and reuse this template for your own teaching, coursework, or project showcase needs.
